@@ -1,0 +1,24 @@
+$Id: README,v 1.1 2002/11/20 18:20:15 reggers Exp reggers $
+
+This module, Apache::AuthenFTP, is an Apache/mod_perl authentication handler
+to authenticate users using a FTP server (or anything that implements the
+authentication phase of the FTP service).
+
+To build and install it, please run
+
+    perl Makefile.PL
+    make
+    make install
+
+To read more about this module try
+
+    pod2text AuthenFTP.pm
+
+This package is Copyright (C) 2002 by Reg Quinton, Information Systems and
+Technology, University of Waterloo. It may be copied, used and redistributed
+under the same terms as perl itself.
+
+Reg Quinton <regers@ist.uwaterloo.ca>
+
+                                     "Stay calm, be brave, wait for the signs."
+							Dead Dog Cafe/CBC Radio
